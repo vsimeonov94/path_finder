@@ -244,7 +244,7 @@ class ArgumentsParser {
 
     ArgumentsParser(String[] args) {
         if (args.length != 3) {
-            throw new IllegalArgumentException("There should be three params N, k, path to matrix (space separated");
+            throw new IllegalArgumentException("There should be three params N, k, path to matrix (space separated)");
         }
         try {
             N = Integer.parseInt(args[0]);
